@@ -4,11 +4,8 @@ import companyLogo from '../images/companyLogo.jpg'
 const About = () => {
   return (
     <div className=' '>
-        <div className="w-full  mx-auto bg-[#8c92a9] color-[#ccc] min-w-[95%]  flex flex-col justify-center items-center">
-        <div className="w-full md:h-[50vh] h-[57vh]"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.8913526224424!2d4.867254491865328!3d7.636812280619829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10381b7ff26eda99%3A0x9ae7a63c09815528!2sMountain%20Of%20Possibilities!5e1!3m2!1sen!2sng!4v1696585156175!5m2!1sen!2sng"    
-    width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+      <div className="w-full h-[2vh] bg-[#ccc]"></div>
+        <div className="w-full  mx-auto bg-[#8c92a9] color-[#ccc] min-w-[95%] max-w-[1024px] flex flex-col justify-center items-center">
             <div className="md:m-[50px] m-[20px] w-[90%]  justify-center items-center">
                <div className="w-full min-h-[70vh] flex md:flex-row flex-col-reverse flex justify-center">
                 <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
@@ -38,22 +35,29 @@ const About = () => {
                     <div className="w-full mt-[5vh]">
                     <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Our Mission/ Vision</h1>
                       <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
-                        The vision of God that he delivered to our founding fathers is that any thing that is difficult and that man says cannot
-                        be possible he will make easy in the life of anyone that believes.
-                       </h4>
+                      Our Vision at Nuvie Drywall & Installation Enterprise, is to become a premier solution provider
+                       company providing world leadership in the wall and ceiling industry.
+                        Our Mission is to form a long-term relationship of value with our clients 
+                        and partners, using quality execution, safely, and timely delivery of 
+                        projects and employing the best resources and latest techniques.
+                      </h4>
                     </div>
                     <div className="w-full mt-[5vh]">
-                    <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Rules and Regulations</h1>
+                    <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Health Safety and Environment</h1>
                       <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
-                      The Rules and Regulations giving are  simple and straight forward, they includes <br />
-                      1. Do not litter the mountain with dirts <br />
-                      2. Do not pray loud prayer during Night hours <br />
-                      3. 
-                       </h4>
+                      The manpower of NDWEI is one of our most valuable resources. We ensure a safe workplace
+                       for our staff and also to protect clients' investment and facilities, 
+                       our company has evolved a strong health and safety culture driven by a 
+                       goal to achieve "zero accidents" and "zero man-hours lost".
+                       The safety culture has been instilled in KKG employees with the conviction
+                       that every accident is preventable. The company fully acknowledges that
+                       by complying with stringent Health, Safety and Environment (HSE) 
+                       procedures, zero accidents can be accomplished.
+                        </h4>
                     </div>
                 </div>
                 <div className="md:w-1/2 w-full h-[40vh] flex justify-center items-start">
-                  <img src={companyLogo} className='md:ml-[4vw] md:mt-0 h-[36vh] mt-4 md:w-[30vw] w-full' alt="" />
+                  <img src={companyLogo} className='md:ml-[4vw] md:mt-[30vh] h-[36vh] mt-4 md:w-[30vw] w-full' alt="" />
                 </div>
                </div>
 
