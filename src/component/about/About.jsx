@@ -49,7 +49,7 @@ const About = () => {
                        for our staff and also to protect clients' investment and facilities, 
                        our company has evolved a strong health and safety culture driven by a 
                        goal to achieve "zero accidents" and "zero man-hours lost".
-                       The safety culture has been instilled in KKG employees with the conviction
+                       The safety culture has been instilled in NDWEI employees with the conviction
                        that every accident is preventable. The company fully acknowledges that
                        by complying with stringent Health, Safety and Environment (HSE) 
                        procedures, zero accidents can be accomplished.
