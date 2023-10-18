@@ -49,10 +49,10 @@ const Contact = () => {
                 <div className="w-[92%]  md:h-[34vh] h-[67vh] bg-[#ccc] flex md:flex-row flex-col md:gap-0  md:mt-0 mt-2 justify-center items-center ">
                     <div className="md:w-1/2 w-full  md:h-[90%] h-3/5 flex  md:justify-evenly justify-center items-center md:bg-[#ccc] bg-base-100">
                         <form action="" className='md:w-[93%] w-full  h-full flex flex-col md:gap-1 gap-1 md:bg-transparent bg-[white]  item-center justify-between '>
-                        <input type="text" className='h-[5vh] border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Name' />
-                        <input type="text" className='h-[5vh] border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Email' />
-                        <input type="text" className='h-[5vh] border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Phone' />
-                        <input type="text" className='h-[5vh] border-none md:mb-0 mb-[4vh] md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Subject' />
+                        <input type="text" className='pl-5 md:pl-3 h-[5vh] border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Name' />
+                        <input type="text" className='pl-5 md:pl-3 h-[5vh] border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Email' />
+                        <input type="text" className='pl-5 md:pl-3 h-[5vh] border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Phone' />
+                        <input type="text" className='pl-5 md:pl-3 h-[5vh] border-none md:mb-0 mb-[4vh] md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Subject' />
                     </form>
                     </div>
                     <div className="md:w-1/2 md:h-full h-4/5 w-[90%] m-auto flex flex-col justify-center bg-[ccc] items-center">
