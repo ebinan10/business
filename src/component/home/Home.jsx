@@ -18,7 +18,7 @@ const Home = () => {
                      <h1 className='text-center text-[white] md:text-3xl text-md '> DRYWALL</h1>
                      <h1 className='text-[white] md:text-3xl text-md '>&</h1>
                      <h1 className='text-[white] md:text-3xl text-md '>INSTALLATION</h1> <h1 className='text-[white] md:text-5xl text-xl '> ENTREPRISE</h1></div>
-                   <div className="  md:w-[20vw] w-[30vw] bg-opacity-60 h-[5vh] flex items-center justify-center rounded-xl bg-base-100"><Link to='/contact' className='w-full'> Welcome</Link>
+                   <div className="  md:w-[20vw] w-[30vw] bg-opacity-60 h-[5vh] md:h-[7vh] flex items-center justify-center rounded-xl bg-base-100"><Link to='/contact' className='w-full'> Welcome</Link>
                   </div> 
                   </div>
                   
