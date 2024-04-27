@@ -31,11 +31,11 @@ const Contact = () => {
                 <div className="w-full"><h1 className=' md:text-3xl text-xl text-base-100 '> 
                     Head office
                 </h1>
-               <h1 className=' text-base-100 md:text-lg text-md'>  No 68, Military Hospital Road, Yaba Lagos<br />
+               <h1 className=' text-base-100 md:text-lg text-md'>  No 3, Adewusi Street, off Ikorodu Road, Fadeyi Lagos.<br />
                 fadeyi Lagos.</h1></div> 
-                <div className="w-full">
+                {/* <div className="w-full">
                <h1 className=' text-base-100 md:text-lg text-md'>  No 2, Shiro Street, Off Ikorodu-Ososun Fadeyi Lagos<br />
-                fadeyi Lagos.</h1></div> 
+                fadeyi Lagos.</h1></div>  */}
                 <div className="w-full">
                     <h1 className='text-base-100 md:text-xl text-md'>
                     <br /> Lagos – Nigeria. <br />
